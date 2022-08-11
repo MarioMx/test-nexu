@@ -27,29 +27,29 @@ POST /brands LISTO
 Add new brands
 POST /brands JSON ({"name": "Toyota"})
 Example
-POST http://localhost:3000/brands JSON ({"name": "Toyota"})
+POST https://test-nexu.herokuapp.com/brands JSON ({"name": "Toyota"})
 
 /Models
 GET /brands/:id/models LISTO
 List all Models of the brand
 GET /brands/:id/models
 Example
-GET http://localhost:3000/brands/1/models
+GET https://test-nexu.herokuapp.com/brands/1/models
 
 POST /brands/:id/models LISTO
 Add new model of the brands
-POST /brands/:id/models JSON {"name": "Prius", "average_price": 406400}
+POST /brands/:id/models JSON {"name": "Prius", "averagePrice": 406400}
 Example
-POST http://localhost:3000/brands/1/models JSON {"name": "Prius", "average_price": 406400}
+POST https://test-nexu.herokuapp.com/brands/1/models JSON {"name": "Prius", "averagePrice": 406400}
 
 PUT /models/:id
 Update average price of model
-POST /models/:id JSON {"average_price": 406400}
+POST /models/:id JSON {"averagePrice": 406400}
 Example
-POST http://localhost:3000/models/1 JSON {"average_price": 406400}
+POST hhttps://test-nexu.herokuapp.com/models/1 JSON {"averagePrice": 406400}
 
 GET /models?greater=&lower= LISTO
 Get All Models where Average Price between than greater and lower
 POST /models?greater=&lower=
 Example
-POST http://localhost:3000/models?greater=100000&lower=150000
+POST https://test-nexu.herokuapp.com/models?greater=100000&lower=150000
