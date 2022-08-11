@@ -24,12 +24,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/brands",
-					"protocol": "http",
+					"raw": "https://test-nexu.herokuapp.com/brands",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"test-nexu",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"brands"
 					]
@@ -43,12 +44,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/brands/1/models",
-					"protocol": "http",
+					"raw": "https://test-nexu.herokuapp.com/brands/1/models",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"test-nexu",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"brands",
 						"1",
@@ -64,12 +66,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/models?greater=100000&lower=150000",
-					"protocol": "http",
+					"raw": "https://test-nexu.herokuapp.com/models?greater=100000&lower=150000",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"test-nexu",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"models"
 					],
@@ -102,12 +105,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/brands",
-					"protocol": "http",
+					"raw": "https://test-nexu.herokuapp.com/brands",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"test-nexu",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"brands"
 					]
@@ -130,12 +134,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/brands/62/models",
-					"protocol": "http",
+					"raw": "https://test-nexu.herokuapp.com/brands/62/models",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"test-nexu",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"brands",
 						"62",
@@ -160,12 +165,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/models/1741",
-					"protocol": "http",
+					"raw": "https://test-nexu.herokuapp.com/models/1741",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"test-nexu",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"models",
 						"1741"
